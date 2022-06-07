@@ -1,0 +1,71 @@
+body {
+background: #72C2E7;
+text-align: center;
+}
+                      
+h1 {
+color: #FBF6FD;
+font-size: 60px;
+text-shadow: #272229 2px 2px 4px;
+}
+            
+#gallery {
+border: 10px solid #1D0C16;
+height: 600px;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+overflow: visible;
+background: #272229;
+-webkit-box-shadow: #272229 10px 10px 20px;
+-moz-box-shadow: #272229 10px 10px 20px;
+box-shadow: #272229 10px 10px 20px;
+          
+}         
+		  
+#gallery ul{
+
+margin-left:-30px; 
+}
+            
+#gallery ul li {
+ list-style:none;
+display:inline-table;
+padding:10px;
+}
+#gallery ul li .pic{
+-webkit-transition: all 0.6s ease-in-out;
+-moz-transition: all 0.6s ease-in-out;
+-o-transition: all 0.6s ease-in-out;      
+opacity:0;
+visibility:hidden; 
+position:fixed; 
+margin-top:10px; 
+margin-left:-20px; 
+border:1px solid black;
+-webkit-box-shadow:#272229 2px 2px 10px;
+-moz-box-shadow:#272229 2px 2px 10px;
+box-shadow:#272229 2px 2px 10px;
+}
+#gallery ul li .mini{
+width:100px; 
+height:100px;
+}
+			
+#gallery ul li .gif{
+width:300px; 
+height:300px;
+}
+			
+#gallery ul li .mini:hover{
+cursor:pointer;
+}
+            
+#gallery ul li:hover .pic {
+width:30%; 
+height:30%;
+opacity:1; 
+visibility:visible; 
+float:right;
+}
+               
