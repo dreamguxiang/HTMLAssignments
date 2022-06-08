@@ -1072,7 +1072,20 @@ body.landing #footer {
 body.is-mobile.landing #page-wrapper {
     background: none;
 }
+
 body.is-mobile.landing #banner,
+body.is-mobile.landing .wrapper.style4 {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.webp");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.webp");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.webp");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 body.is-mobile.landing #footer {
     background-color: #1d242a;
